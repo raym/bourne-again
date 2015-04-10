@@ -1,3 +1,7 @@
+function src {
+  cd ~/src/"$1"
+}
+
 if [ -f ~/.git-completion.bash ]; then
   . ~/.git-completion.bash
 fi
