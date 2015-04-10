@@ -9,3 +9,5 @@ fi
 if [ -f ~/.bash/git-aware-prompt ]; then
   . ~/.bash/git-aware-prompt/main.sh
 fi
+
+. ~/.bash/prompt.sh
