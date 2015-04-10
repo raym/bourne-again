@@ -1,3 +1,7 @@
+if [ -f ~/.bash/colors.sh ]; then
+  . ~/.bash/colors.sh
+fi
+
 function src {
   cd ~/src/"$1"
 }
