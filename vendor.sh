@@ -1,5 +1,6 @@
-if [ -f $HOME/.bash/git-completion.bash ]; then
-  . $HOME/.bash/git-completion.bash
+# https://github.com/markgandolfo/git-bash-completion.git
+if [ -f $HOME/.bash/git-bash-completion/git-completion.bash ]; then
+  . $HOME/.bash/git-bash-completion/git-completion.bash
 else
   echo -e "[36;40m"
   echo -e "git-completion [0m""not installed. to install:"
@@ -10,6 +11,7 @@ else
   echo -n "[0m"
 fi
 
+# https://github.com/jimeh/git-aware-prompt.git
 if [ -f $HOME/.bash/git-aware-prompt/prompt.sh ]; then
   . $HOME/.bash/git-aware-prompt/prompt.sh
 else

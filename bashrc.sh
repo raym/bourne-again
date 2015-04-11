@@ -1,5 +1,6 @@
-. ./vendor.sh
-. ./colors.sh
-. ./aliases.sh
-. ./helpers.sh
-. ./prompt.sh
+BOURNE=$HOME/.bash/bourne-again/
+. $BOURNE/vendor.sh
+. $BOURNE/colors.sh
+. $BOURNE/aliases.sh
+. $BOURNE/helpers.sh
+. $BOURNE/prompt.sh
